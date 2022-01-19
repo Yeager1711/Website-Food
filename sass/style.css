@@ -96,7 +96,7 @@ section {
   left: 0;
   right: 0;
   background: var(--white);
-  z-index: 9;
+  z-index: 99999 !important;
 }
 
 .header .logo {
