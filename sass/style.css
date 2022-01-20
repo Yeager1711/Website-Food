@@ -96,7 +96,7 @@ section {
   left: 0;
   right: 0;
   background: var(--white);
-  z-index: 99999 !important;
+  z-index: 10;
 }
 
 .header .logo {
@@ -442,7 +442,7 @@ section {
   position: absolute;
   top: 0;
   left: 0;
-  z-index: 10;
+  z-index: 9;
   height: 100%;
   width: 100%;
   background: var(--dark-bg);

@@ -42,7 +42,7 @@ document.querySelectorAll('.food .slide').forEach(food =>{
     previewBox.forEach(preview =>{
       let target = preview.getAttribute('data-target');
       if(name == target){
-        preview.classList.add('active');
+        preview.classList.add('active')
       }
     })
   }
@@ -51,6 +51,6 @@ document.querySelectorAll('.food .slide').forEach(food =>{
 previewContainer.querySelector('#close-preview').onclick = () =>{
   previewContainer.style.display='none';
   previewBox.forEach(close =>{
-    close.classList.remove('active')
+    close.classList.remove('active');
   })
 }
